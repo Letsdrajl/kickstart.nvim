@@ -33,6 +33,9 @@ return {
       { '<F1>', dap.step_into, desc = 'Debug: Step Into' },
       { '<F2>', dap.step_over, desc = 'Debug: Step Over' },
       { '<F3>', dap.step_out, desc = 'Debug: Step Out' },
+      { '<F9>', dapui.open, desc = 'Debug: Open UI' },
+      { '<F10>', dapui.toggle, desc = 'Debug: Toggle UI' },
+      { '<F11>', dapui.close, desc = 'Debug: Close UI' },
       { '<leader>b', dap.toggle_breakpoint, desc = 'Debug: Toggle Breakpoint' },
       {
         '<leader>B',
